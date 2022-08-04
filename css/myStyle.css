@@ -4,8 +4,8 @@
 .overlay {
     background-color: transparent;
 }
-.section-one {
-    background-image: url(../img/my-img/logo-oficial.svg);
+#left-side {
+    background-image: url(../img/my-img/section-one-background.jpg);
     background-size: cover;
 }
 
