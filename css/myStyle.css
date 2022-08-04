@@ -5,8 +5,7 @@
     background-color: transparent;
 }
 .section-one {
-    height: 100vh;
-    background-image: url(../img/my-img/section-one-background.jpg);
+    background-image: url(../img/my-img/logo-oficial.svg);
     background-size: cover;
 }
 
