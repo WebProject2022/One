@@ -5,7 +5,7 @@
     background-color: transparent;
 }
 #left-side {
-    background-image: url(../img/my-img/section-one-background.jpg);
+    background-image: url('../img/my-img/section-one-background.jpg');
     background-size: cover;
 }
 
