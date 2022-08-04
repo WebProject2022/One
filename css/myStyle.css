@@ -1,0 +1,12 @@
+.global-overlay {
+    z-index: 1000;
+}
+.overlay {
+    background-color: transparent;
+}
+.section-one {
+    height: 100vh;
+    background-image: url(../img/my-img/section-one-background.jpg);
+    background-size: cover;
+}
+
