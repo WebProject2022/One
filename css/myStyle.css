@@ -1,9 +1,11 @@
 .global-overlay {
-
+    z-index: 10000000000;
 }
 .overlay {
+    background-color: transparent;
+}
+#left-side {
     background-image: url(../img/my-img/section-one-background.jpg);
     background-size: cover;
 }
-
 
