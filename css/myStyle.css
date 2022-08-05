@@ -6,6 +6,20 @@
     height: 100vh;
 }
 
+#right-side > :nth-child(2n) {
+
+    background: linear-gradient(270deg, #00B6CF, #3E3968);
+    color: white
+}
+#right-side :nth-child(2n) h3 {
+    color: white
+}
+#right-side :nth-child(2n) h5 {
+    color: white
+}
+#right-side :nth-child(2n) p {
+    color: white
+}
 
 
 
