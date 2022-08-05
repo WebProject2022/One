@@ -1,4 +1,14 @@
-html, body {
+.overlay {
+    background-color: rgba(0, 0, 0, 0.686);
+    border: none;
+}
+
+
+
+
+
+
+/* html, body {
     position: relative;
     scroll-behavior: smooth;
 }
@@ -7,15 +17,8 @@ html, body {
     pointer-events: none;
     z-index: 100;
 }
-.overlay {
-    background-color: transparent;
-    border: none;
-}
-.brand-logo {
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.772);
-    box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.772)
-}
+
+
 
 #left-side {
     background-image: url('../img/my-img/section-one-background.jpg');
@@ -67,4 +70,4 @@ html, body {
 }
 #right-side :nth-child(2n-1) p {
     color: white
-}
+} */
