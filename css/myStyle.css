@@ -2,9 +2,7 @@ html, body {
     position: relative;
     scroll-behavior: smooth;
 }
-li {
-    color: black;
-}
+
 .global-overlay {
     pointer-events: none;
     z-index: 100;
@@ -26,6 +24,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
 }
 .text-intro {
     color: #6A6B6D;
@@ -34,12 +33,20 @@ li {
     border: 2px solid  #3E3968;
     background-color: #ffffffc2;
 }
+.light-btn:hover {
+    background: linear-gradient(270deg, #00b7cf, #3E3968);
+    border: 2px solid  #3E3968;
+    color: white;
+}
 .action-btn {
     background: linear-gradient(270deg, #00b7cf, #3E3968);
     border: 2px solid  #3E3968;
     color: white;
-
-
+}
+.action-btn:hover {
+    border: 2px solid  #3E3968;
+    background-color: #ffffffc2;
+    color: #6A6B6D;
 }
 #right-side .content {
     height: 100vh;
@@ -47,8 +54,17 @@ li {
 #right-side {
     z-index: 1000;
 }
-#right-side > :nth-child(2n) {
+#right-side > :nth-child(2n-1) {
 
     background: linear-gradient(270deg, #00B6CF, #3E3968);
+    color: white
 }
-
+#right-side :nth-child(2n-1) h3 {
+    color: white
+}
+#right-side :nth-child(2n-1) h5 {
+    color: white
+}
+#right-side :nth-child(2n-1) p {
+    color: white
+}
