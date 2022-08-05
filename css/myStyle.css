@@ -2,25 +2,38 @@
     background-color: rgba(0, 0, 0, 0.686);
     border: none;
 }
+/* #right-side {
+    height: 100vh;
+    overflow: auto;  
+    scroll-snap-type: y mandatory;  
+}
+
+#right-side .content {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+} */
 #right-side .content {
     height: 100vh;
 }
 
-#right-side > :nth-child(2n) {
+#right-side> :nth-child(2n) {
 
     background: linear-gradient(270deg, #00B6CF, #3E3968);
     color: white
 }
+
 #right-side :nth-child(2n) h3 {
     color: white
 }
+
 #right-side :nth-child(2n) h5 {
     color: white
 }
+
 #right-side :nth-child(2n) p {
     color: white
 }
-
 
 
 
