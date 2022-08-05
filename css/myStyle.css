@@ -14,8 +14,9 @@
     scroll-snap-align: start;
 } */
 #right-side .content {
+    /* padding: 50px; */
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #right-side > :nth-child(2n) {
@@ -35,19 +36,31 @@
 #right-side :nth-child(2n) p {
     color: white
 }
+#right-side > :nth-child(2) {
+    padding: 0;
+    background-image: url('../img/my-img/company.jpg');
+    background-size: cover;
+
+}
 #right-side > :nth-child(6) {
     padding: 0;
+    margin: 0;
     background-image: url('../img/my-img/security.jpg');
     background-size: cover;
 
 }
 .filter {
-    position: absolute;
-    height: 100%;
-    padding: 0;
+    /* position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     margin: 0;
+    min-height: 100vh;
+    width: 100%;
     color: white;
-    background-color:rgba(0, 0, 0, 0.522)
+    background-image:linear-gradient(270deg, #006c7af0, #2d2856f0)
 }
 
 .bar::before {
