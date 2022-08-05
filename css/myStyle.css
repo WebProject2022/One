@@ -1,12 +1,19 @@
-
+li {
+    color: black;
+}
 .global-overlay {
-    z-index: 10000000000;
+    pointer-events: none;
+    z-index: 100;
 }
 .overlay {
     background-color: transparent;
+    border: none;
 }
 #left-side {
     background: url('../img/my-img/section-one-background.jpg');
     background-size: cover;
+}
+#right-side {
+    z-index: 1000;
 }
 
