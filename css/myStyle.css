@@ -1,3 +1,7 @@
+html, body {
+    position: relative;
+    scroll-behavior: smooth;
+}
 li {
     color: black;
 }
@@ -9,11 +13,41 @@ li {
     background-color: transparent;
     border: none;
 }
+.brand-logo {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.772);
+    box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.772)
+}
+
 #left-side {
-    background: url('../img/my-img/section-one-background.jpg');
+    background-image: url('../img/my-img/section-one-background.jpg');
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.text-intro {
+    color: #6A6B6D;
+}
+.light-btn {
+    border: 2px solid  #3E3968;
+}
+.action-btn {
+    background: linear-gradient(270deg, #00B6CF, #3E3968);
+    border: 2px solid  #3E3968;
+    color: white;
+
+
+}
+#right-side .content {
+    height: 100vh;
 }
 #right-side {
     z-index: 1000;
+}
+#right-side > :nth-child(2n) {
+
+    background: linear-gradient(270deg, #00B6CF, #3E3968);
 }
 
