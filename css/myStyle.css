@@ -2,7 +2,9 @@
     background-color: rgba(0, 0, 0, 0.686);
     border: none;
 }
-
+#right-side .content {
+    height: 100vh;
+}
 
 
 
