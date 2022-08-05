@@ -32,9 +32,10 @@ li {
 }
 .light-btn {
     border: 2px solid  #3E3968;
+    background-color: #ffffffc2;
 }
 .action-btn {
-    background: linear-gradient(270deg, #00B6CF, #3E3968);
+    background: linear-gradient(270deg, #00b7cf, #3E3968);
     border: 2px solid  #3E3968;
     color: white;
 
