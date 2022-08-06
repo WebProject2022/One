@@ -63,9 +63,13 @@
     background-image: url('../img/my-img/security.jpg');
     background-size: cover;
     background-position: center bottom;
-
 }
 
+.container-fluid> :nth-child(8) {
+    background-image: url('../img/my-img/mision.jpg');
+    background-size: cover;
+    background-position: center bottom;
+}
 .filter {
     position: relative;
     margin: 0;
