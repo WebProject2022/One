@@ -32,7 +32,16 @@
     background-size: cover;
     background-position: center bottom;
 }
-
+.container-fluid> :nth-child(3) {
+    background-image: url('../img/my-img/blockchain-network.png');
+    background-size: cover;
+    background-position: center bottom;
+}
+.container-fluid> :nth-child(5) {
+    background-image: url('../img/my-img/blockchain-network.png');
+    background-size: cover;
+    background-position: center bottom;
+}
 .container-fluid> :nth-child(6) {
     background-image: url('../img/my-img/mision.jpg');
     background-size: cover;
@@ -121,7 +130,7 @@
         position: absolute;
         background-image: url('../img/my-img/mision.jpg');
         background-size: cover;
-        background-position: center;
+        background-position: start;
         height: 100vh;
         left: 0;
         clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
