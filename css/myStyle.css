@@ -76,6 +76,8 @@
     background-image: url('../img/my-img/security.jpg');
     background-size: cover;
     background-position: center bottom;
+    min-height: auto;
+
 }
 
 .container-fluid> :nth-child(8) {
@@ -85,6 +87,9 @@
 }
 
 .container-fluid> :nth-child(9) {
+    min-height: auto;
+}
+.container-fluid> :nth-child(10) {
     min-height: auto;
 }
 
