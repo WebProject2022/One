@@ -1,8 +1,8 @@
 
 if (screen.width < 574) {
-    ScrollReveal().reveal('.row', {
-    duration: 300,
-    origin: 'bottom',
+    ScrollReveal().reveal('.h3', {
+    duration: 1000,
+    origin: 'left',
     distance: '300px'
 });
 }
