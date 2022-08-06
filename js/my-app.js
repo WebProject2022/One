@@ -1,18 +1,6 @@
 
 if (screen.width < 574) {
 
-    ScrollReveal().reveal('.card', {
-        duration: 1500,
-        origin: 'bottom',
-        distance: '40px'
-
-    });
-    ScrollReveal().reveal('.card-animation', {
-        duration: 1500,
-        origin: 'right',
-        distance: '40px'
-
-    });
     ScrollReveal().reveal('.h1', {
         duration: 1500,
         origin: 'top',
@@ -35,6 +23,24 @@ if (screen.width < 574) {
         duration: 1500,
         origin: 'right',
         distance: '40px'
+
+    });
+    ScrollReveal().reveal('.card', {
+        duration: 1500,
+        origin: 'bottom',
+        distance: '40px'
+
+    });
+    ScrollReveal().reveal('.card-animation', {
+        duration: 1500,
+        origin: 'right',
+        distance: '40px'
+
+    });
+    ScrollReveal().reveal('.footer-logo', {
+        duration: 1500,
+        origin: 'bottom',
+        distance: '70px'
 
     });
 }
