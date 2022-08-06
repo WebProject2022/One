@@ -1,7 +1,7 @@
 
 
 ScrollReveal().reveal('.row', {
-    duration: 3000,
+    duration: 300,
     origin: 'bottom',
     distance: '500px'
 });
