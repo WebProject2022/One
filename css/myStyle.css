@@ -2,6 +2,7 @@
     background-color: rgba(0, 0, 0, 0.686);
     border: none;
 }
+
 /* #right-side {
     height: 100vh;
     overflow: auto;  
@@ -13,42 +14,58 @@
     scroll-snap-type: y mandatory;
     scroll-snap-align: start;
 } */
-#right-side .content {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 0;
-    position: relative;
+.row {
     min-height: 100vh;
 }
 
-#right-side > :nth-child(2n) {
+.container-fluid> :nth-child(2n) {
     background: linear-gradient(270deg, #00B6CF, #3E3968);
     color: white;
 }
 
-#right-side :nth-child(2n) h3 {
-    color: white
-}
-
-#right-side :nth-child(2n) h5 {
-    color: white
-}
-
-#right-side :nth-child(2n) p {
-    color: white
-}
-#right-side > :nth-child(2) {
+.container-fluid> :nth-child(2) {
     background-image: url('../img/my-img/company.jpg');
     background-size: cover;
     background-position: center bottom;
+}
+
+.container-fluid> :nth-child(6) {
+    background-image: url('../img/my-img/mision.jpg');
+    background-size: cover;
+    background-position: left;
 
 }
-#right-side > :nth-child(7) {
+
+.img-clipath-mision {
+    position: relative;
+    background-image: url('../img/my-img/mision.jpg');
+    background-size: cover;
+    background-position: left;
+    height: 40vh;
+    margin-bottom: 50px;
+    left: 0;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.img-clipath-vision {
+    position: relative;
+    background-image: url('../img/my-img/vision.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 40vh;
+    margin-top: 50px 0;
+    right: 0;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.container-fluid> :nth-child(7) {
     background-image: url('../img/my-img/security.jpg');
     background-size: cover;
     background-position: center bottom;
 
 }
+
 .filter {
     position: relative;
     margin: 0;
@@ -56,8 +73,9 @@
     min-height: 100vh;
     width: 100%;
     color: white;
-    background-image:linear-gradient(270deg, #006c7af0, #2d2856f0)
+    background-image: linear-gradient(270deg, #006c7af0, #2d2856f0)
 }
+
 .filter-leve {
     position: relative;
     margin: 0;
@@ -65,75 +83,42 @@
     min-height: 100vh;
     width: 100%;
     color: white;
-    background-image:linear-gradient(270deg, #006c7ab8, #2d2856b8)
-}
-.filter-leve p  {
-    color: white;
+    background-image: linear-gradient(270deg, #006c7ab8, #2d2856b8)
 }
 
-.img-clipath-mision {
-    position: absolute;
-    background-image: url('../img/my-img/mision.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    left: 0;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-}
-.img-clipath-vision {
-    position: absolute;
-    background-image: url('../img/my-img/vision.jpg');    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    right: 0;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-}
-
-
-
-#right-side > :nth-child(6)  {
-    background-image: url('../img/my-img/mision.jpg');    
-    background-size: cover;
-    background-position: left;
-    min-height: 100vh;
-}
-
-.container-fluid > :nth-child(n){
-    background-color: transparent;
-}
 .card {
     background-color: transparent;
-    background-image:linear-gradient(270deg, #006c7af0, #2d2856f0)
+    background-image: linear-gradient(270deg, #006c7af0, #2d2856f0)
 }
-@media (max-width: 573px) {
+
+@media (min-width: 574px) {
+
+
     .img-clipath-mision {
-        position: relative;
+        position: absolute;
         background-image: url('../img/my-img/mision.jpg');
         background-size: cover;
-        background-position: left;
-        width: 100vw;
-        height: 40vh;
-        margin-bottom: 50px;
-
-        left: 0;
-        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    }
-    .img-clipath-vision {
-        position: relative;
-        background-image: url('../img/my-img/vision.jpg');    background-size: cover;
         background-position: center;
-        width: 100vw;
-        height: 40vh;
-        margin-top: 50px 0;
-        right: 0;
-        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        height: 100vh;
+        left: 0;
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     }
-    #right-side > :nth-child(6)  {
+
+    .img-clipath-vision {
+        position: absolute;
+        background-image: url('../img/my-img/vision.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        right: 0;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    }
+
+    #right-side> :nth-child(6) {
         height: 100vh;
         min-height: auto;
     }
 }
-
 /* html, body {
     position: relative;
     scroll-behavior: smooth;
