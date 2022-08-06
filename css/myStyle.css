@@ -37,6 +37,11 @@
     background-size: cover;
     background-position: center bottom;
 }
+.container-fluid> :nth-child(4) {
+    background-image: url('../img/my-img/blockchain-network.png');
+    background-size: cover;
+    background-position: center bottom;
+}
 .container-fluid> :nth-child(5) {
     background-image: url('../img/my-img/blockchain-network.png');
     background-size: cover;
@@ -51,7 +56,7 @@
 
 .img-clipath-mision {
     position: relative;
-    background-image: url('../img/my-img/mision.jpg');
+    background-image: url('../img/my-img/goal.jpg');
     background-size: cover;
     background-position: left;
     height: 40vh;
