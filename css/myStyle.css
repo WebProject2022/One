@@ -92,6 +92,10 @@
 .container-fluid> :nth-child(10) {
     min-height: auto;
 }
+.container-fluid> :nth-child(11) {
+    height: 100vh;
+    min-height: auto;
+}
 
 .filter {
     position: relative;
