@@ -33,7 +33,7 @@ if (screen.width < 574) {
     });
     ScrollReveal().reveal('.card-animation', {
         duration: 1500,
-        origin: 'right',
+        origin: 'bottom',
         distance: '40px'
 
     });
