@@ -3,17 +3,6 @@
     border: none;
 }
 
-/* #right-side {
-    height: 100vh;
-    overflow: auto;  
-    scroll-snap-type: y mandatory;  
-}
-
-#right-side .content {
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
-} */
 .row {
     min-height: 100vh;
 }
@@ -141,7 +130,6 @@
 
 @media (min-width: 574px) {
 
-
     .img-clipath-mision {
         position: absolute;
         background-image: url('../img/my-img/goal.jpg');
@@ -167,76 +155,3 @@
         min-height: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-/* html, body {
-    position: relative;
-    scroll-behavior: smooth;
-}
-
-.global-overlay {
-    pointer-events: none;
-    z-index: 100;
-}
-
-
-
-#left-side {
-    background-image: url('../img/my-img/section-one-background.jpg');
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-}
-.text-intro {
-    color: #6A6B6D;
-}
-.light-btn {
-    border: 2px solid  #3E3968;
-    background-color: #ffffffc2;
-}
-.light-btn:hover {
-    background: linear-gradient(270deg, #00b7cf, #3E3968);
-    border: 2px solid  #3E3968;
-    color: white;
-}
-.action-btn {
-    background: linear-gradient(270deg, #00b7cf, #3E3968);
-    border: 2px solid  #3E3968;
-    color: white;
-}
-.action-btn:hover {
-    border: 2px solid  #3E3968;
-    background-color: #ffffffc2;
-    color: #6A6B6D;
-}
-#right-side .content {
-    height: 100vh;
-}
-#right-side {
-    z-index: 1000;
-}
-#right-side > :nth-child(2n-1) {
-
-    background: linear-gradient(270deg, #00B6CF, #3E3968);
-    color: white
-}
-#right-side :nth-child(2n-1) h3 {
-    color: white
-}
-#right-side :nth-child(2n-1) h5 {
-    color: white
-}
-#right-side :nth-child(2n-1) p {
-    color: white
-} */
