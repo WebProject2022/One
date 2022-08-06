@@ -22,31 +22,37 @@
     background: linear-gradient(270deg, #00B6CF, #3E3968);
     color: white;
 }
+
 .container-fluid> :nth-child(1) {
     background-image: url('../img/my-img/blockchain-network.png');
     background-size: cover;
     background-position: center bottom;
 }
+
 .container-fluid> :nth-child(2) {
     background-image: url('../img/my-img/company.jpg');
     background-size: cover;
     background-position: center bottom;
 }
+
 .container-fluid> :nth-child(3) {
     background-image: url('../img/my-img/blockchain-network.png');
     background-size: cover;
     background-position: center bottom;
 }
+
 .container-fluid> :nth-child(4) {
     background-image: url('../img/my-img/blockchain-network.png');
     background-size: cover;
     background-position: center bottom;
 }
+
 .container-fluid> :nth-child(5) {
     background-image: url('../img/my-img/blockchain-network.png');
     background-size: cover;
     background-position: center bottom;
 }
+
 .container-fluid> :nth-child(6) {
     background-image: url('../img/my-img/mision.jpg');
     background-size: cover;
@@ -56,13 +62,17 @@
 
 .img-clipath-mision {
     position: relative;
-    background-image: url('../img/my-img/goal.jpg');
+    top: 0;
+    background-image: url('../img/my-img/mision.jpg');
     background-size: cover;
     background-position: left;
     height: 40vh;
     margin-bottom: 50px;
     left: 0;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(100% 30%, 100% 100%, 49% 70%, 0 100%, 0 30%, 49% 0);
+
+
+
 }
 
 .img-clipath-vision {
@@ -74,7 +84,8 @@
     height: 40vh;
     margin-top: 50px 0;
     right: 0;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(100% 30%, 100% 100%, 49% 70%, 0 100%, 0 30%, 49% 0);
+
 }
 
 .container-fluid> :nth-child(7) {
@@ -88,12 +99,11 @@
     background-size: cover;
     background-position: center bottom;
 }
+
 .container-fluid> :nth-child(9) {
-    /* background-image: url('../img/my-img/network.jpg'); */
     min-height: auto;
-    /* background-size: cover;
-    background-position: center bottom; */
 }
+
 .filter {
     position: relative;
     margin: 0;
@@ -103,6 +113,7 @@
     color: white;
     background-image: linear-gradient(270deg, #006c7af0, #2d2856f0)
 }
+
 .filter-white {
     position: relative;
     margin: 0;
@@ -156,6 +167,16 @@
         min-height: auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
 /* html, body {
     position: relative;
     scroll-behavior: smooth;
