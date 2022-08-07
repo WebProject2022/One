@@ -90,9 +90,16 @@
     min-height: auto;
 }
 .container-fluid> :nth-child(10) {
+    background-image: url('../img/my-img/blockchain-network.png');
     min-height: auto;
+    height: auto;
+}
+.container-fluid > :nth-child(10) > :nth-child(1)  {
+    min-height: auto;
+    height: auto;
 }
 .container-fluid> :nth-child(11) {
+    background-image: url('../img/my-img/blockchain-network.png');
     height: 100vh;
     min-height: auto;
 }
@@ -155,10 +162,5 @@
         height: 100vh;
         right: 0;
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-    }
-
-    #right-side> :nth-child(6) {
-        height: 100vh;
-        min-height: auto;
     }
 }
