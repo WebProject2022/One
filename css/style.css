@@ -124,7 +124,7 @@ table {
   left: 0;
   right: 0;
   height: 1px;
-  text-align: center;
+  text-align: center; 
 }
 
 #loading #preloader span {
